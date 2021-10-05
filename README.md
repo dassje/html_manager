@@ -6,8 +6,7 @@ This simple Pure Javascript client-side Partial View manager will check for all 
 How to do?
 
 1. Just add the reference to the script html_partial.js in your index.html file.
-2. Split your HTML to different documents
-3. Add partial tags where you want to include html from external file.
+2. Add partial tags where you want to include html from external file.
 
   ```html
   <!doctype html>
