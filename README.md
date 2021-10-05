@@ -9,3 +9,18 @@ How to do?
 2. Split your HTML to different documents
 3. Add partial tags where you want to include html from external file.
 
+  ```html
+  <!doctype html>
+  <html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+      <div>
+          <partial src="/parts/top_header.html" /> 
+      </div>
+      <script src="lib/html_manager.js"></script>
+  </body>
+  </html>
+  ```
