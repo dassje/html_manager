@@ -5,7 +5,7 @@ This simple Pure Javascript client-side Partial View manager will check for all 
 
 How to do?
 
-1. Just add the reference to the script html_manager.js in your index.html file.
+1. Just add the reference to the script html_partial.js in your index.html file.
 2. Split your HTML to different documents
 3. Add partial tags where you want to include html from external file.
 
@@ -20,7 +20,7 @@ How to do?
       <div>
           <partial src="/parts/top_header.html" /> 
       </div>
-      <script src="lib/html_manager.js"></script>
+      <script src="lib/html_partial.js"></script>
   </body>
   </html>
   ```
