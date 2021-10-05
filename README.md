@@ -1,7 +1,7 @@
 # html_partial
 Micro Tiny HTML Partial View Manager
 
-This simple Pure Javascript client-side Partial View manager will check for all <partial src=""> tags and replace it with the HTML content from its src attribute.
+This simple Pure Javascript client-side Partial View manager will check for all partial tags and replace it with the HTML content from its src attribute.
 
 How to do?
 
